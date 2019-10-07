@@ -8,6 +8,7 @@ profile:
   align: right
   image: photo_new.jpg
   address: >
+    <p>prateekyadav.iisc@gmail.com</p>
 
 news: true
 social: true
