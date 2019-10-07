@@ -13,7 +13,7 @@ news: true
 social: true
 ---
 
-Hey, I am a Research Assistant at Indian Institute of Technology(IIT), Madras under the guidance of [Prof. Arun Rajkumar](https://sites.google.com/view/arun-rajkumar){:target="_blank"}. My research goal is to obtain a better understanding of deep learning models which would enable us to make them more roboust and efficient. I am particularly interesed in representation learning and natural language models. Current focus of my research is on developing deep learning techniques on structured data. I also wish to learn more about Optimization, Reinforcement learning.
+Hey, I am a Research Assistant at Indian Institute of Technology(IIT), Madras under the guidance of [Prof. Arun Rajkumar](https://sites.google.com/view/arun-rajkumar){:target="_blank"}. My research goal is to better understand deep learning models which would enable us to make them more roboust and efficient. I am particularly interesed in representation learning and natural language models. Current focus of my research is on developing deep learning techniques on structured data. I also wish to learn more about Optimization, Reinforcement learning.
 
 Over the past few years, I have been fortunate to work with [Dr. Prateek Jain](https://www.prateekjain.org){:target="_blank"} at MSR, India and with [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} at Machine and Language Learning Lab. I completed my undergraduate degree in mathematics in 2018 from [Indian Institute of Science, Bangalore](https://www.iisc.ac.in/){:target="_blank"} and my bachelor's thesis was supervised by [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} and [Prof. Kaushal Verma](http://math.iisc.ac.in/~kverma/){:target="_blank"}. 
 
