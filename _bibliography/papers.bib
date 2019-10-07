@@ -1,0 +1,79 @@
+---
+---
+
+@string{aps = {American Physical Society,}}
+
+
+@ARTICLE{hypergcn,
+  author    = {Yadati, {Naganand} and {Nimishakavi}, Madhav and {Yadav}, Prateek and {Nitin}, Vikram and {Louis}, Anand and {Talukdar}, Partha},
+  title     = {HyperGCN: A New Method For Training Graph Convolutional Networks on Hypergraphs},
+  journal   = {To appear at NeurIPS},
+  volume    = {abs/1809.02589},
+  year      = {2019},
+  archivePrefix = {arXiv},
+  arxiv    = {1809.02589},
+  timestamp = {Wed, 25 Sep 2019 01:05:14 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1809-02589},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract =   {In many real-world network datasets such as co-authorship, co-citation, email communication, etc., relationships are complex and go beyond pairwise. Hypergraphs provide a flexible and natural modeling tool to model such complex relationships. The obvious existence of such complex relationships in many real-world networks naturaly motivates the problem of learning with hypergraphs. A popular learning paradigm is hypergraph-based semi-supervised learning (SSL) where the goal is to assign labels to initially unlabeled vertices in a hypergraph. Motivated by the fact that a graph convolutional network (GCN) has been effective for graph-based SSL, we propose HyperGCN, a novel GCN for SSL on attributed hypergraphs. Additionally, we show how HyperGCN can be used as a learning-based approach for combinatorial optimisation on NP-hard hypergraph problems. We demonstrate HyperGCN's effectiveness through detailed experimentation on real-world hypergraphs.}
+}
+
+@inproceedings{wordgcn2019,
+    title = "Incorporating Syntactic and Semantic Information in Word Embeddings using Graph Convolutional Networks",
+    author = "Vashishth, Shikhar and Yadav, Prateek* and Bhandari, Manik*  and Rai, Piyush  and Bhattacharyya, Chiranjib  and Talukdar, Partha", 
+    booktitle = "Proceedings of the 57th Conference of the Association for Computational Linguistics (ACL)",
+    month = "july",
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics ",
+    arxiv = {1809.04283},
+    pages = "3308--3318",
+    code = "https://github.com/malllabiisc/WordGCN",
+    supp = "wordgcn_supp.pdf",
+    poster = "wordgcn_poster.pdf",
+    abstract =   {Word embeddings have been widely adopted across several NLP applications. Most existing word embedding methods utilize sequential context of a word to learn its embedding. While there have been some attempts at utilizing syntactic context of a word, such methods result in an explosion of the vocabulary size. In this paper, we overcome this problem by proposing SynGCN, a flexible Graph Convolution based method for learning word embeddings. SynGCN utilizes the dependency context of a word without increasing the vocabulary size. Word embeddings learned by SynGCN outperform existing methods on various intrinsic and extrinsic tasks and provide an advantage when used with ELMo. We also propose SemGCN, an effective framework for incorporating diverse semantic knowledge for further enhancing learned word representations. We make the source code of both models available to encourage reproducible research.}
+}
+
+
+@InProceedings{lcn,
+  title = 	 {Lovasz Convolutional Networks},
+  author = 	 {{Yadav}, Prateek and {Nimishakavi}, Madhav and {Yadati}, Naganand and {Vashishth}, Shikhar and
+        {Rajkumar}, Arun and {Talukdar}, Partha},
+  booktitle = 	 {Proceedings of the Twenty-second International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year = 	 {2019},
+  volume = 	 {89},
+  series = 	 {Proceedings of Machine Learning Research},
+  address =  {Naha, Okinawa, Japan},
+  month = 	 {16--18 Apr},
+  publisher = 	 {PMLR},
+  url = 	 {https://arxiv.org/abs/1805.11365},
+  arxiv = {1805.11365},
+  code = "https://github.com/malllabiisc/lcn",
+  poster = "lcn_poster.pdf",
+  abstract = 	 {Semi-supervised learning on graph structured data has received significant attention with the recent introduction of Graph Convolution Networks (GCN). While traditional methods have focused on optimizing a loss augmented with Laplacian regularization framework, GCNs perform an implicit Laplacian type regularization to capture local graph structure. In this work, we propose Lovász Convolutional Network (LCNs) which are capable of incorporating global graph properties. LCNs achieve this by utilizing Lovasz's orthonormal embeddings of the nodes. We analyse local and global properties of graphs and demonstrate settings where LCNs tend to work better than GCNs. We validate the proposed method on standard random graph models such as stochastic block models (SBM) and certain community structure based graphs where LCNs outperform GCNs and learn more intuitive embeddings. We also perform extensive binary and multi-class classification experiments on real world datasets to demonstrate LCN’s effectiveness. In addition to simple graphs, we also demonstrate the use of LCNs on hyper-graphs by identifying settings where they are expected to work better than GCNs. }
+}
+
+@InProceedings{confgcn,
+  title = 	 {Confidence-based Graph Convolutional Networks for Semi-Supervised Learning},
+  author = 	 {{Yadav}, Prateek* and {Vashishth}, Shikhar* and {Bhandari}, Manik* and {Talukdar}, Partha},
+  booktitle = 	 {Proceedings of the Twenty-second International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year = 	 {2019},
+  volume = 	 {89},
+  series = 	 {Proceedings of Machine Learning Research},
+  address =  {Naha, Okinawa, Japan},
+  month = 	 {16--18 Apr},
+  publisher = 	 {PMLR},
+  arxiv = {1901.08255},
+  code = "https://github.com/malllabiisc/ConfGCN",
+  abstract = 	 {Predicting properties of nodes in a graph is an important problem with applications in a variety of domains. Graph-based Semi Supervised Learning (SSL) methods aim to address this problem by labeling a small subset of the nodes as seeds, and then utilizing the graph structure to predict label scores for the rest of the nodes in the graph. Recently, Graph Convolutional Networks (GCNs) have achieved impressive performance on the graph-based SSL task. In addition to label scores, it is also desirable to have confidence scores associated with them. Unfortunately, confidence estimation in the context of GCN has not been previously explored. We fill this important gap in this paper and propose ConfGCN, which estimates labels scores along with their confidences jointly in GCN-based setting. ConfGCN uses these estimated confidences to determine the influence of one node on another during neighborhood aggregation, thereby acquiring anisotropic1 capabilities. Through extensive analysis and experiments on standard benchmarks, we find that ConfGCN is able to outperform state-of-the-art baselines. We have made ConfGCN’s source code available to encourage reproducible research. }
+}
+
+
+@ARTICLE{nhp,
+	title={Link Prediction in Hypergraphs using Graph Convolutional Networks},
+	author={Yadati, {Naganand} and {Nitin}, Vikram and {Nimishakavi}, Madhav and {Yadav}, Prateek and {Louis}, Anand and {Talukdar}, Partha},
+	journal = {under review},
+	year={2019},
+	pdf = "nhp.pdf",
+	abstract = {Link prediction in simple graphs is a fundamental problem in which new links between nodes are predicted based on the observed structure of the graph. However, in many real-world applications, there is a need to model relationships among nodes which go beyond pairwise associations. For example, in a chemical reaction, relationship among the reactants and products is inherently higher-order. Additionally, there is need to represent the direction from reactants to products. Hypergraphs provide a natural way to represent such complex higher-order relationships. Even though Graph Convolutional Networks (GCN) have recently emerged as a powerful deep learning-based approach for link prediction over simple graphs, their suitability for link prediction in hypergraphs is unexplored -- we fill this gap in this paper and propose Neural Hyperlink Predictor (NHP). NHP adapts GCNs for link prediction in hypergraphs. We propose two variants of NHP --NHP-U and NHP-D -- for link prediction over undirected and directed hypergraphs, respectively. To the best of our knowledge, NHP-D is the first method for link prediction over directed hypergraphs. Through extensive experiments on multiple real-world datasets, we show NHP's effectiveness.}
+}
