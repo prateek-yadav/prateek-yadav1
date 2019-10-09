@@ -6,7 +6,7 @@ description: Representation Learning, Graph Neural Networks, NLP, <a href="https
 
 profile:
   align: right
-  image: photo_web.jpg
+  image: usj_japan.jpg
   address: >
     <p>prateekyadav.iisc@gmail.com</p>
 
