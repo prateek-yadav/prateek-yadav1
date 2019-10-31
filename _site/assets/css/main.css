@@ -496,13 +496,13 @@ figcaption { font-size: 0.75rem; }
 
 .gist .lines { width: 100%; }
 
-a { color: #666; text-decoration: none; }
+a { color: #333; text-decoration: none; }
 a:hover { color: #0076df; text-decoration: none; }
 
 article a, .news a { color: #0076df; font-weight: 100; }
 article a:hover, .news a:hover { text-decoration: underline; }
 
-.social a { color: #666; }
+.social a { color: #333; }
 .social a:hover { color: #0076df; }
 
 .measure { margin: 0 auto; max-width: 42rem; }
@@ -525,9 +525,9 @@ table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #333;
 table > caption + thead > tr:first-child > th, table > caption + thead > tr:first-child > td, table > colgroup + thead > tr:first-child > th, table > colgroup + thead > tr:first-child > td, table > thead:first-child > tr:first-child > th, table > thead:first-child > tr:first-child > td { border-top: 0; }
 table > tbody + tbody { border-top: 2px solid #333; }
 
-html { font-size: 11px; }
+html { font-size: 14px; }
 
-body { color: #666; font-weight: 100; }
+body { color: #333; font-weight: 100; }
 
 abbr { border-bottom: 1px black dotted; cursor: help; }
 

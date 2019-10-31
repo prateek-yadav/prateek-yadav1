@@ -72,8 +72,17 @@
 @ARTICLE{nhp,
 	title={Link Prediction in Hypergraphs using Graph Convolutional Networks},
 	author={Yadati, {Naganand} and {Nitin}, Vikram and {Nimishakavi}, Madhav and {Yadav}, Prateek and {Louis}, Anand and {Talukdar}, Partha},
-	journal = {under review},
-	year={2019},
+	journal = {under review, AAAI},
+	year={2020},
 	pdf = "nhp.pdf",
 	abstract = {Link prediction in simple graphs is a fundamental problem in which new links between nodes are predicted based on the observed structure of the graph. However, in many real-world applications, there is a need to model relationships among nodes which go beyond pairwise associations. For example, in a chemical reaction, relationship among the reactants and products is inherently higher-order. Additionally, there is need to represent the direction from reactants to products. Hypergraphs provide a natural way to represent such complex higher-order relationships. Even though Graph Convolutional Networks (GCN) have recently emerged as a powerful deep learning-based approach for link prediction over simple graphs, their suitability for link prediction in hypergraphs is unexplored -- we fill this gap in this paper and propose Neural Hyperlink Predictor (NHP). NHP adapts GCNs for link prediction in hypergraphs. We propose two variants of NHP --NHP-U and NHP-D -- for link prediction over undirected and directed hypergraphs, respectively. To the best of our knowledge, NHP-D is the first method for link prediction over directed hypergraphs. Through extensive experiments on multiple real-world datasets, we show NHP's effectiveness.}
+}
+
+@ARTICLE{RR,
+	title={Rank Refinement: An Algorithmic framework with applications to diversity aware influence maximization},
+	author={{Yadav}, Prateek and {Rajkumar}, Arun},
+	journal = {under review, SIGMOD},
+	year={2020},
+	pdf = "rr.pdf",
+	abstract = {Several real-world problems including network influence maximization, rank aggregation, etc. can be posed as problems that output a good ranking of a set of items. We introduce a unifying algorithmic framework based on a novel notion called rank refinement of monotonic set functions to tackle such problems. We prove that under very mild monotonicity assumptions the proposed algorithm converges to a stable ranking. We show that IMRank, a highly scalable influence maximization algorithm can be derived as a special case of our framework. By careful choice of the monotonic set functions, we derive novel generalizations of IMRank that balances the influence and diversity of the top-ranked nodes without compromising on scalability. We provide extensive experimental analysis on both synthetic data-sets based on stochastic block models and large scale real-world data-sets to demonstrate the efficacy of the proposed framework.}
 }
