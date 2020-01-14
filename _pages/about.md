@@ -6,7 +6,7 @@ description: Representation Learning, Graph Neural Networks, NLP, <a href="https
 
 profile:
   align: right
-  image: usj_japan.jpg
+  image: vancouver_selfie.jpg
   address: >
     <p>prateekyadav.iisc@gmail.com</p>
 
@@ -14,7 +14,7 @@ news: true
 social: true
 ---
 
-Hey, I am a Research Assistant at the Indian Institute of Technology(IIT), Madras under the guidance of [Prof. Arun Rajkumar](https://sites.google.com/view/arun-rajkumar){:target="_blank"}. My research goal is to better understand deep learning models which would enable us to make them more interpretable, robust, fair and efficient. I am particularly interested in exploiting structure and geometry in deep learning models and their applications to natural language processing, recommender systems, and other areas. Recently, I have also developed a slight interest in causal inference.
+Hey, I am a Research Assistant at the Indian Institute of Technology(IIT), Madras under the guidance of [Prof. Arun Rajkumar](https://sites.google.com/view/arun-rajkumar){:target="_blank"}. My research goal is to better understand deep learning models and enabling them to learn causal principals. I am also interested in exploiting structure and geometry in deep learning models and to make them more interpretable, robust, and fair.
 
 Over the past few years, I have been fortunate to work with [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} at Machine and Language Learning Lab and I have also spent some time at Microsoft Research, India. I completed my undergraduate degree in mathematics in 2018 from [Indian Institute of Science, Bangalore](https://www.iisc.ac.in/){:target="_blank"} and my bachelor's thesis was supervised by [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} and [Prof. Kaushal Verma](http://math.iisc.ac.in/~kverma/){:target="_blank"}. 
 
