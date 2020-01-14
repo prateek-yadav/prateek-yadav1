@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Prateek</strong> Yadav
-description: Representation Learning, Graph Neural Networks, NLP, <a href="https://www.iisc.ac.in/">Indian Institute of Science, Bangalore </a>.
+description: Representation Learning, Graph Neural Networks, Causality, NLP, <a href="https://www.iisc.ac.in/">Indian Institute of Science, Bangalore </a>.
 
 profile:
   align: right
