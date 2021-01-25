@@ -72,7 +72,7 @@
 @ARTICLE{nhp,
 	title={Link Prediction in Hypergraphs using Graph Convolutional Networks},
 	author={Yadati, {Naganand} and {Nitin}, Vikram and {Nimishakavi}, Madhav and {Yadav}, Prateek and {Louis}, Anand and {Talukdar}, Partha},
-	journal = {under review},
+	journal = {CIKM},
 	year={2020},
 	pdf = "nhp.pdf",
 	abstract = {Link prediction in simple graphs is a fundamental problem in which new links between nodes are predicted based on the observed structure of the graph. However, in many real-world applications, there is a need to model relationships among nodes which go beyond pairwise associations. For example, in a chemical reaction, relationship among the reactants and products is inherently higher-order. Additionally, there is need to represent the direction from reactants to products. Hypergraphs provide a natural way to represent such complex higher-order relationships. Even though Graph Convolutional Networks (GCN) have recently emerged as a powerful deep learning-based approach for link prediction over simple graphs, their suitability for link prediction in hypergraphs is unexplored -- we fill this gap in this paper and propose Neural Hyperlink Predictor (NHP). NHP adapts GCNs for link prediction in hypergraphs. We propose two variants of NHP --NHP-U and NHP-D -- for link prediction over undirected and directed hypergraphs, respectively. To the best of our knowledge, NHP-D is the first method for link prediction over directed hypergraphs. Through extensive experiments on multiple real-world datasets, we show NHP's effectiveness.}
@@ -81,8 +81,16 @@
 @ARTICLE{RR,
 	title={Rank Refinement: An Algorithmic framework with applications to diversity aware influence maximization},
 	author={{Yadav}, Prateek and {Rajkumar}, Arun},
-	journal = {under review},
-	year={2020},
+	journal = {GCLR AAAI},
+	year={2021},
 	pdf = "rr.pdf",
 	abstract = {Several real-world problems including network influence maximization, rank aggregation, etc. can be posed as problems that output a good ranking of a set of items. We introduce a unifying algorithmic framework based on a novel notion called rank refinement of monotonic set functions to tackle such problems. We prove that under very mild monotonicity assumptions the proposed algorithm converges to a stable ranking. We show that IMRank, a highly scalable influence maximization algorithm can be derived as a special case of our framework. By careful choice of the monotonic set functions, we derive novel generalizations of IMRank that balances the influence and diversity of the top-ranked nodes without compromising on scalability. We provide extensive experimental analysis on both synthetic data-sets based on stochastic block models and large scale real-world data-sets to demonstrate the efficacy of the proposed framework.}
+}
+
+@InProceedings{virality,
+  title =    {Discrete Time Latent Hawkes Processes for ModelingMultidimensional Temporal Event Streams},
+  author =   {{Yadav}, Prateek and {Sankaran}, Raman and {Dutta}, Partha and {Bhatt}, Rushi},
+  journal = {under review},
+  year={2020},
+  abstract =   {Multidimensional event streams are common in many applications such as content on social platforms. Existing models using Hawkes processes and its variants often ignore important information about the causal parents of the events, which typically is readily available in social media applications. These models also ignore the disproportionate response created by some of the rare events, such as the impact of a ``like'' on a content by an influencer. Addressing these limitations, this paper proposes a novel Bayesian dIscRete Time Hawkes (BIRTH) model, a Bayesian generative model for multidimensional event streams data with causal information. Through its latent variables, BIRTH is flexible enough to capture contrasting responses invoked by multiple events of the same type. Moreover, being a discrete-time model, the latent parameters scale as $O(\#Time bins)$ in BIRTH as compared to $O(\#events)$ for continuous-time processes, thus scaling better in the settings when the number of events is huge. For inference, we propose a Gibbs sampling based inference procedure for BIRTH, which is suitable when the whole data can be processed together. While a full variational inference procedure is difficult to arrive at due to non-conjugate factors in the posterior, we propose a Stochastic hybrid Gibbs-Variational Inference (SVI) algorithm, which is beneficial in the settings where Gibbs might be expensive in terms of memory requirements. SVI has per-iteration memory complexity proportional to the chosen minibatch size, and also extends easily for online streaming settings of the data. We thoroughly evaluate BIRTH's abilities over both synthetic and real-world social network event streams. Specifically, on synthetic datasets we demonstrate model fitting, recovery of planted structure and identification of the rare events. For a social network dataset we show significantly higher likelihoods along with rare event identification.}
 }
