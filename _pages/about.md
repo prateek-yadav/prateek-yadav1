@@ -14,7 +14,7 @@ news: true
 social: true
 ---
 
-Hey! I am a PhD student at the  MURGe-Lab at the University of North Carolina - Chapel Hill, where I work with [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/){:target="_blank"}. My research goal is to better exploit structures, geometrical properties and invariances in ML models and to make them more interpretable, robust and fair.
+Hey! I am a PhD student at the [MURGe-Lab](https://murgelab.cs.unc.edu){:target="_blank"} at the University of North Carolina - Chapel Hill, where I work with [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/){:target="_blank"}. My research goal is to better exploit structures, geometrical properties and invariances in ML models and to make them more interpretable, robust and fair.
 
 Over the past few years, I have been fortunate to work with [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} at [MALL-Lab](https://malllabiisc.github.io){:target="_blank"} at [Indian Institute of Science Bangalore](https://www.iisc.ac.in){:target="_blank"}, with [Dr. Prateek Jain](https://www.prateekjain.org){:target="_blank"} at Microsoft Research India and with [Prof. Arun Rajkumar](https://sites.google.com/view/arun-rajkumar){:target="_blank"} at [Indian Institute of Technology, Madras](https://www.cse.iitm.ac.in){:target="_blank"}. I was also at LinkedIn AI Bangalore for a year. Before all this, I completed my undergraduate degree in mathematics in 2018 from IISc, Bangalore and my bachelor's thesis was supervised by [Prof. Partha Talukdar](http://talukdar.net){:target="_blank"} and [Prof. Kaushal Verma](http://math.iisc.ac.in/~kverma/){:target="_blank"}. 
 
